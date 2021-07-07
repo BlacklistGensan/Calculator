@@ -1,0 +1,32 @@
+def clickbut(number): 
+    global operator
+    operator = operator + str(number)
+    textin.set(operator)
+
+
+def equalbut() :
+    try:
+        global operator
+        add=str(eval(operator))
+        textin.set(add)
+        operator= ""
+    except: 
+        textin.set("ERROR")
+        operator = "" 
+        
+            
+            
+def subbut() :
+    global operator
+    sub=str(eval(operator))
+    textin.set(sub)
+    operator= ""
+
+def mulbut() :
+    global operator
+    mul=str(eval(operator))
+    textin.set(mul)
+    operator= ""
+
+
+
