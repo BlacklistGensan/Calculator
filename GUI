@@ -1,1 +1,33 @@
-draft
+caltext = Entry(cal,font=("Bodoni MT Black",20, "bold"),textvar=textin,width=17,bd=10,fg="white",bg="black",justify="right")
+caltext.pack()
+caltext.pack(side=TOP)
+
+but1=Button(cal,padx=16.5,pady=13,bd=6,fg="white",bg="black",command = lambda:clickbut(1),text ="1", font=("Script MT Bold",14,"bold"))
+but1.place(x=11,y=254)
+
+but2=Button(cal,padx=16,pady=13,bd=6,fg="white",bg="black",command = lambda:clickbut(2),text ="2", font=("Script MT Bold",14,"bold"))
+but2.place(x=76,y=254)
+
+but3=Button(cal,padx=15,pady=13,bd=6,fg="white",bg="black",command = lambda:clickbut(3),text ="3", font=("Script MT Bold",14,"bold"))
+but3.place(x=140,y=254)
+
+but4=Button(cal,padx=16,pady=13,bd=6,fg="white",bg="black",command = lambda:clickbut(4),text ="4", font=("Script MT Bold",14,"bold"))
+but4.place(x=11,y=181.5)
+
+but5=Button(cal,padx=16,pady=12.5,bd=6,fg="white",bg="black",command = lambda:clickbut(5),text ="5", font=("Script MT Bold",14,"bold"))
+but5.place(x=76,y=181.5)
+
+but6=Button(cal,padx=15,pady=12.5,bd=6,fg="white",bg="black",command = lambda:clickbut(6),text ="6", font=("Script MT Bold",14,"bold"))
+but6.place(x=140,y=181.5)
+
+but7=Button(cal,padx=16,pady=13,bd=6,fg="white",bg="black",command = lambda:clickbut(7),text ="7", font=("Script MT Bold",14,"bold"))
+but7.place(x=11,y=110)
+
+but8=Button(cal,padx=16,pady=13,bd=6,fg="white",bg="black",command = lambda:clickbut(8),text ="8", font=("Script MT Bold",14,"bold"))
+but8.place(x=76,y=110)
+
+but9=Button(cal,padx=16,pady=14,bd=5,fg="white",bg="black",command = lambda:clickbut(9),text ="9", font=("Script MT Bold",14,"bold"))
+but9.place(x=140,y=110)
+
+but0=Button(cal,padx=45,pady=12,bd=5,fg="white",bg="black",command = lambda:clickbut(0),text ="0", font=("Arial Black",14,"bold"))
+but0.place(x=76,y=325)
