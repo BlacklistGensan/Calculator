@@ -1,3 +1,19 @@
+from tkinter import *
+
+cal= Tk()
+cal.title("Blacklist Gensan")
+callabel = Label(cal, text="Blacklist Gensan",bg="black",fg="white",font = ("Bodoni MT Black",20,"bold"))
+callabel.pack(side=TOP)
+cal.title("Calculator")
+callabel = Label(cal, text="Calculator",bg="black",fg="white",font = ("Bodoni MT Black",30,"bold"))
+callabel.pack(side=BOTTOM)
+cal.config(background = "black")
+cal.geometry("350x460")
+
+
+textin=StringVar()
+operator=""
+
 caltext = Entry(cal,font=("Bodoni MT Black",20, "bold"),textvar=textin,width=17,bd=10,fg="white",bg="black",justify="right")
 caltext.pack()
 caltext.pack(side=TOP)
