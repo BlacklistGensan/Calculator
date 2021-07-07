@@ -1,3 +1,5 @@
+#Calculator Logic
+
 def clickbut(number): 
     global operator
     operator = operator + str(number)
@@ -27,6 +29,22 @@ def mulbut() :
     mul=str(eval(operator))
     textin.set(mul)
     operator= ""
+
+def divbut() :
+    global operator
+    div=str(eval(operator))
+    textin.set(div)
+    operator= ""
+
+def clrALLbut():
+    global operator
+    textin.set("")
+    operator=""
+
+def backspacebut():
+    global operator
+    operator=operator[:-1]
+    textin.set(operator)
 
 
 
