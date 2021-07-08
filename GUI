@@ -48,29 +48,3 @@ but9.place(x=140,y=110)
 but0=Button(cal,padx=45,pady=12,bd=5,fg="white",bg="black",command = lambda:clickbut(0),text ="0", font=("Arial Black",14,"bold"))
 but0.place(x=76,y=325)
 
-butdot=Button(cal,padx=19,pady=14.5,bd=6,fg="white",bg="black",command = lambda:clickbut("."),text =".", font=("Script MT Bold",14,"bold"))
-butdot.place(x=11,y=325)
-
-butpl=Button(cal,padx=17,pady=51,bd=5,fg="white",bg="black",text="+",command = lambda:clickbut("+"), font=("Script MT Bold",14,"bold"))
-butpl.place(x=202,y=254)
-
-butsub=Button(cal,padx=20,pady=13,bd=6,fg="white",bg="black",text="-",command = lambda:clickbut("-"), font=("Script MT Bold",14,"bold"))
-butsub.place(x=202,y=181.5)
-
-butml=Button(cal,padx=18.4,pady=13,bd=6,fg="white",bg="black",text="*",command = lambda:clickbut("*"), font=("Script MT Bold",14,"bold"))
-butml.place(x=270,y=181.5)
-
-butdiv=Button(cal,padx=18,pady=14,bd=6,fg="white",bg="black",text="/",command = lambda:clickbut("/"), font=("Script MT Bold",14,"bold"))
-butdiv.place(x=270,y=254)
-
-butclear=Button(cal,padx=14,pady=14,bd=5,fg="white",bg="black",text="AC",command=clrALLbut,font=("Impact",14,"bold"))
-butclear.place(x=270,y=110)
-
-butbackspace=Button(cal,padx=14,pady=14,bd=5,fg="white",bg="black",text="CE",command=backspacebut,font=("Impact",14,"bold"))
-butbackspace.place(x=202,y=110)
-
-butequal=Button(cal,padx=17,pady=14,bd=6,fg="black",bg="orange",command=equalbut,text="=",font=("Impact",14,"bold"))
-butequal.place(x=270,y=326)
-
-cal.resizable(False, False)
-cal.mainloop()
