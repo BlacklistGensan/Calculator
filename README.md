@@ -13,5 +13,4 @@ It also gives an error value if operations are incorrect.
 
 ![image](https://user-images.githubusercontent.com/84701104/125041605-83412680-e0cb-11eb-9ee0-685b00b973bb.png)
 
-![image](https://user-images.githubusercontent.com/84701104/125043137-39f1d680-e0cd-11eb-8fb0-f9367b99cb0e.png)
-
+![image](https://user-images.githubusercontent.com/84701104/125043648-bb496900-e0cd-11eb-99cf-0226e51fe094.png)
