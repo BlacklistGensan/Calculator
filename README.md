@@ -17,6 +17,6 @@ Name | Username
 ------------ | -------------
 Orvie Soguilon | BlacklistGensan
 Christian Lopez | chris-ian01
-John Kenneth Geraldez | https://github.com/Kenneth1726
+John Kenneth Geraldez | Kenneth1726
 Rau John Cunanan| Rauj
 Franz Alvior | Mikuuu07
