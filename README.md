@@ -10,3 +10,5 @@ Available functions:
 
 Apart from basic math operations, this calculator has backspace (DEL) functionality as well; a delete function that deletes all input, and a delete function that deletes input one by one.
 It also gives an error value if operations are incorrect.
+
+![image](https://user-images.githubusercontent.com/84701104/125041605-83412680-e0cb-11eb-9ee0-685b00b973bb.png)
