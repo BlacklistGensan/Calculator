@@ -20,10 +20,3 @@ Christian Lopez | chris-ian01
 John Kenneth Geraldez | Kenneth1726
 Rau John Cunanan| Rauj
 Franz Alvior | Mikuuu07
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
