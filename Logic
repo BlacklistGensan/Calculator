@@ -1,31 +1,26 @@
 #Calculator Logic
 
 class Calculator:
-    def __init__(self):
-        pass
 
-    def clickbut(number): 
+    def clickbut(self, number): 
         global operator
         operator = operator + str(number)
         textin.set(operator)
 
-    def equalbut():
-        error = "Error"
+    def clickbut(self, number): 
         global operator
-        try:
-            add=str(eval(operator))
-            textin.set(add)
-            operator= ""
-            return int(add)
+        operator = operator + str(number)
+        textin.set(operator)
 
-        except ZeroDivisionError:
-            textin.set("MATH ERROR")
-            operator = "" 
-            return error
+    def evaluate(self) :
+        try:
+            global operator
+            input=str(eval(operator))
+            textin.set(input)
+            operator= ""
         except: 
             textin.set("ERROR")
             operator = "" 
-            return error
         
     def clrALLbut():
         global operator
