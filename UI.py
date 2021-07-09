@@ -74,7 +74,7 @@ class Calculator:
         but7=Button(cal,padx=16,pady=13,bd=6,fg="white",bg="black",command = lambda:self.clickbut(7),text ="7", font=("Script MT Bold",14,"bold"))
         but7.place(x=11,y=110)
 
-        but8=Button(cal,padx=16,pady=13,bd=6,fg="white",bg="black",command = lambda:self.clickbut(😎,text ="8", font=("Script MT Bold",14,"bold"))
+        but8=Button(cal,padx=16,pady=13,bd=6,fg="white",bg="black",command = lambda:self.clickbut(8),text ="8", font=("Script MT Bold",14,"bold"))
         but8.place(x=76,y=110)
 
         but9=Button(cal,padx=16,pady=14,bd=5,fg="white",bg="black",command = lambda:self.clickbut(9),text ="9", font=("Script MT Bold",14,"bold"))
