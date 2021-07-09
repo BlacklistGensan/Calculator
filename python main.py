@@ -75,13 +75,11 @@ class Calculator:
         but3=Button(cal,padx=15,pady=13,bd=6,fg="white",bg="black",command = lambda:self.clickbut(3),text ="3", font=("Script MT Bold",14,"bold"))
         but3.place(x=140,y=254)
 
-
         butdot=Button(cal,padx=19,pady=14.5,bd=6,fg="white",bg="black",command = lambda:self.clickbut("."),text =".", font=("Script MT Bold",14,"bold"))
         butdot.place(x=11,y=325)
         
         but0=Button(cal,padx=45,pady=12,bd=5,fg="white",bg="black",command = lambda:self.clickbut(0),text ="0", font=("Arial Black",14,"bold"))
         but0.place(x=76,y=325)
-
 
         butclear=Button(cal,padx=14,pady=14,bd=5,fg="white",bg="black",text="AC",command=self.clrALLbut,font=("Impact",14,"bold"))
         butclear.place(x=270,y=110)
@@ -89,7 +87,6 @@ class Calculator:
         butbackspace=Button(cal,padx=14,pady=14,bd=5,fg="white",bg="black",text="CE",command=self.backspacebut,font=("Impact",14,"bold"))
         butbackspace.place(x=202,y=110)
         
-
         butsub=Button(cal,padx=20,pady=13,bd=6,fg="white",bg="black",text="-",command = lambda:self.clickbut("-"), font=("Script MT Bold",14,"bold"))
         butsub.place(x=202,y=181.5)
         
