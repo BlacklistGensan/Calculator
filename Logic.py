@@ -20,13 +20,13 @@ class Calculator:
             operator = "" 
             
 # Function that clears the whole entry of text display   
-    def clrALLbut():
+    def clrALLbut(self):
         global operator
         textin.set("")
         operator=""
 
 # Function to delete one by one from the last in the entry of text display
-    def backspacebut():
+    def backspacebut(self):
         global operator
         operator=operator[:-1]
         textin.set(operator)
