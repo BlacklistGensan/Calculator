@@ -15,9 +15,10 @@ It also gives an error value if operations are incorrect.
 
 ![image](https://user-images.githubusercontent.com/84701104/125043648-bb496900-e0cd-11eb-99cf-0226e51fe094.png)
 
-First Header | Second Header
+Name | Username
 ------------ | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-Content from cell 1 | Content from cell 2
-Content from cell 1 | Content from cell 2
+Orvie Soguilon | BlacklistGensan
+Christian Lopez | chris-ian01
+John Kenneth Geraldez | Kenneth1726
+Rau John Cunanan| Rauj
+Franz Alvior | Mikuuu07
